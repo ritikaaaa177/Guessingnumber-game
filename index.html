@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number-Game</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body class="bg-gray-300 font-pacific">
+
+    <div class="flex flex-row">
+        <div class="container w-96 ml-60 h-96 mt-8 bg-purple-500 rounded-3xl">
+            <button class="again mx-4 my-4 bg-white px-2 py-2 w-40 h-11 rounded-2xl hover:bg-gray-100">Again!</button>
+
+            <div class="block m-autoborder-2 w-96 bg-white">
+                <h1 class="px-6 py-7 font-bold text-3xl mx-auto">Guess The Correct Number🤔</h1>
+            </div>
+
+            <div>
+
+                <input class="text block mx-auto mt-10 border-gray-300 border-2 text-center rounded-xl outline-none"
+                    type="text" placeholder="Enter the number here">
+
+                <button
+                    class=" guess bg-white px-2 py-2 block mx-auto mt-4 w-40 h-11 rounded-2xl hover:bg-gray-100">Check!</button>
+
+            </div>
+
+        </div>
+
+
+        <div class=" w-96 ml-32 h-96 mt-8 bg-purple-500 rounded-3xl">
+            <img class="w-32 h-28 block mx-auto mt-10" src="img-removebg-preview.png" alt="scores">
+            <h2 class="status text-white mt-9 ml-7 font-bold text-2xl">Guessing the number 🤔!</h2>
+            <h2 class="ml-7 text-white font-bold text-2xl">Score: <span class="score">20</span></h2>
+            <h2 class="ml-7 text-white font-bold text-2xl">HighScore: <span class="highscore">0</span></h2>
+        </div>
+
+
+
+
+    </div>
+
+
+    <button
+        class=" block mx-auto px-2 py-2 w-96 rounded-2xl mt-48 h-28 bg-purple-500 text-white font-bold text-2xl border-2 border-white">Let's
+        Begin...!</button>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
